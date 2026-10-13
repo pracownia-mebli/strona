@@ -22,23 +22,27 @@ body{
 /* HEADER */
 
 header{
-  height:105px;
-  display:flex;
-  align-items:center;
-  gap:42px;
-  padding:0 5%;
-  background:#fff;
-  border-bottom:1px solid #eeeae3;
+    height:92px;
+    display:flex;
+    align-items:center;
+    gap:36px;
+    padding:0 5%;
+    background:#fff;
+    border-bottom:1px solid #eeeae3;
+}
+
+.brand{
+    margin-right:auto;
+    height:92px;
+    display:flex;
+    align-items:center;
 }
 
 .brand img{
-  width:230px;
-  height:105px;
-  object-fit:contain;
-  display:block;
+    width:auto;
+    height:82px;
+    display:block;
 }
-
-.brand{margin-right:auto}
 
 nav{
   display:flex;
