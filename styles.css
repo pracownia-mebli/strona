@@ -103,7 +103,7 @@ h1{
   display:grid;
   grid-template-columns:repeat(4,1fr);
   background:#faf8f4;
-  border-bottom:1px solid var(--line);
+  border-bottom:none;
 }
 .categories article{
   display:flex;
